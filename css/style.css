@@ -1,9 +1,17 @@
 /********** Template CSS **********/
 :root {
-  --primary: #813772;
+  --primary: #cf3630;
   --secondary: #34ad54;
   --light: #eef9ff;
   --dark: #000;
+}
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Ibarra Real Nova", serif; */
+  color: #333;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .bg-primary {
@@ -11,7 +19,7 @@
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #813772 !important;
+  background-color: #cf3630 !important;
   box-shadow: inset 0 0 0 50px transparent;
   border: #378146 !important;
 }
@@ -19,18 +27,18 @@
   background-color: #f7f7f7 !important;
 }
 .bg-dark {
-  background-color: #091e3e !important;
-  /* background-image: linear-gradient( #813772, #091e3e); */
+  background-color: #181818 !important;
+  /* background-image: linear-gradient( #CF3630, #091e3e); */
 }
 
 .text-primary {
-  color: #76323f !important;
+  color: #cf3630 !important;
 }
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #813772;
+  background-color: #cf3630;
   border-color: #dee2e6 #dee2e6 #fff;
 }
 
@@ -161,8 +169,8 @@ h6,
   font-family: "Nunito", sans-serif;
   position: relative;
   margin-left: 25px;
-  padding: 25px 0;
-  color: #000;
+  padding: 15px 0;
+  color: #fff;
   font-size: 18px;
   font-weight: 600;
   outline: none;
@@ -177,7 +185,7 @@ h6,
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
   /* color: var(--primary); */
-  color: #813772;
+  color: #cf3630;
 }
 
 .navbar-dark .navbar-brand h1 {
@@ -199,7 +207,7 @@ h6,
   .navbar-dark .navbar-nav .nav-link.show,
   .sticky-top.navbar-dark .navbar-nav .nav-link {
     padding: 10px 0;
-    color: var(--dark);
+    color: #fff;
   }
 
   .navbar-dark .navbar-brand h1 {
@@ -258,7 +266,7 @@ h6,
   z-index: 1;
 }
 .carousel-inner img {
-  height: 100vh;
+  height: 85vh;
 }
 
 @media (max-width: 576px) {
@@ -525,6 +533,10 @@ h6,
     z-index: 1;
   }
 }
+.facts img {
+  height: 80px;
+  width: auto;
+}
 
 .back-to-top {
   position: fixed;
@@ -554,6 +566,14 @@ h6,
   }
 }
 
+/* why us */
+.why-us img {
+  height: 80px;
+  width: auto;
+}
+.why-us .box {
+  height: 253px;
+}
 /* Images Gallry first page Section
 --------------------------------*/
 #images-gallery {
@@ -604,7 +624,7 @@ h6,
   padding-top: 8px;
   text-align: center;
   position: absolute;
-  background-color: #813772;
+  background-color: #cf3630;
   border-radius: 50%;
   text-align: center;
   border: 4px solid #fff;
@@ -625,7 +645,7 @@ h6,
 }
 
 #images-gallery .images-gallery-col:hover i {
-  color: #813772;
+  color: #cf3630;
 }
 
 #images-gallery .images-gallery-col h2 {
@@ -642,7 +662,7 @@ h6,
 }
 
 #images-gallery .images-gallery-col h2:hover {
-  color: #813772;
+  color: #cf3630;
 }
 
 #images-gallery .images-gallery-col p {
@@ -702,7 +722,7 @@ h6,
 
 #portfolio .portfolio-item {
   position: relative;
-  height: 360px;
+  height: 280px;
   overflow: hidden;
 }
 
